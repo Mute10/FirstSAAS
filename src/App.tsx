@@ -65,7 +65,7 @@ export default function App() {
 
 function AppContent() {
   const location = useLocation();
-  const { settings } = useSettings(); // ✅ safe to use here
+  const { settings } = useSettings();
 
   useEffect(() => {
     if (settings.darkMode) {
