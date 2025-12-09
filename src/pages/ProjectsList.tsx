@@ -11,7 +11,7 @@ export default function ProjectsList() {
         [ctx?.projects]
     );
 
-    const summary = useMemo(() => {
+    const summary = useMemo(() => { // Compute summary counts of projects by status for display in the dashboard
         const s = { total: projects.length, completed: 0, inProgress: 0, notStarted: 0};
         for (const p of projects) {
             if (p.status === "completed") s.completed++;
