@@ -21,7 +21,7 @@ export default function ProjectBoard() {
  const [editingName, setEditingName] = useState(false);
 
 
- useEffect(() => {
+ useEffect(() => { // Sync local draft fields with the current project whenever it changes
 if (!project) return;
   setNameDraft(project.name ?? "");
   setDescDraft(project.description ?? "")
@@ -29,7 +29,7 @@ if (!project) return;
 
 
 
-  const updatedAtDisplay = useMemo(() => {
+  const updatedAtDisplay = useMemo(() => { // Format the project's updatedAt display; default to raw value if invalid
     if (!project) return "";
     const d = new Date(project.updatedAt);
     return isNaN(d.getTime()) ? project.updatedAt : d.toLocaleString();
