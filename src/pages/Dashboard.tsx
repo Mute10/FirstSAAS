@@ -52,7 +52,7 @@ You’ll be taken to the Project Board, where you can add, remove, and organize 
       </div>
       <footer>
        
-       © 2025 Mute10. This is a production-level project built with TypeScript and React. 
+       © 2025 Mute10
 
       </footer>
     </div>
