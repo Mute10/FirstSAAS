@@ -28,7 +28,7 @@ export default function Dashboard() {
 You’ll be taken to the Project Board, where you can add, remove, and organize tasks into categories.
 
 <p>- <b>Projects Page:</b> shows all the projects you’ve created in a simple list.  </p>
-<p>- <b>Project Board:</b> gives you a visual board to track and move tasks with the **"Next"** button. </p> 
+<p>- <b>Project Board:</b> gives you a visual board to track and move tasks with the "Next" button. </p> 
 <p>- <b>Tracking:</b>the Projects page also keeps count of how many projects you’re managing.  </p>
 <p>- **Extras:** use the Settings page for additional features, and Debug mode to test or reset data.</p>
   
