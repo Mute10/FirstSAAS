@@ -22,7 +22,8 @@ export default function Dashboard() {
     <>
     <div className={settings.compactView ? "compact" : ""}>
       <h1>{t.dashboard}</h1>
-      <h3>{t.projects}</h3>
+      //<h3>{t.projects}</h3>
+      
 <h3>
   To get started, click the "Create Project" button.  
 You’ll be taken to the Project Board, where you can add, remove, and organize tasks into categories.
