@@ -181,7 +181,7 @@ const updateTaskStatus = useCallback(
     }, [setTasks]
 )
 
-    // backup/restore
+    
     const exportJSON = useCallback(() => {
          return JSON.stringify({projects, tasks}, null, 2);
     }, [projects, tasks]);
